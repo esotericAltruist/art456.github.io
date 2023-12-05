@@ -2,8 +2,14 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
     font-family: "Arial", sans-serif; /* Choose your preferred font */
-    background-color: #EBE2D4;
+    background-color: #f4f4f4;
+}
+
+.centered-text {
+    margin: 0;
+    text-align: center;
 }
 
 #hero-img {
@@ -16,6 +22,7 @@ body, html {
     justify-content: flex-start;
     height: 60vh;
     width: 100vw;
+    background-color: #EBE2D4;
 }
 
 #hero-content {
@@ -39,6 +46,21 @@ h3 {
 
 .hours {
     margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+#order-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EBE2D4;
+    height: 7em;
+    margin: 2em;
+    padding: .5em;
 }
 
 #navbar {
